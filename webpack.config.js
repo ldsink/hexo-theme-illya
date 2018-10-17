@@ -11,6 +11,7 @@ module.exports = {
     },
     output: {
         path: __dirname + "/source",
+        publicPath: "./",
         filename: "[name].[chunkhash:6].js"
     },
     module: {
@@ -26,8 +27,8 @@ module.exports = {
                     devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
                     'css-loader',
                     'postcss-loader',
-                    'sass-loader',
-                ],
+                    'sass-loader'
+                ]
             },
             {
                 test: /\.(gif|jpg|png)\??.*$/,
@@ -40,7 +41,7 @@ module.exports = {
             {
                 test: /\.html$/,
                 loader: 'html'
-            },
+            }
         ]
     },
     plugins: [
@@ -54,15 +55,15 @@ module.exports = {
         new HtmlWebpackPlugin({
             inject: false,
             cache: false,
-            template: 'source-src/css.ejs',
+            template: './source-src/css.ejs',
             filename: '../layout/_partial/css.ejs'
         }),
         new HtmlWebpackPlugin({
             inject: false,
             cache: false,
-            template: 'source-src/script.ejs',
+            template: './source-src/script.ejs',
             filename: '../layout/_partial/script.ejs'
-        }),
+        })
     ],
     watch: devMode
 };
