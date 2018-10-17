@@ -36,12 +36,12 @@ hexo-theme-illya
 #### 安装
 
 ```bash
-$ git clone git@github.com:ldsink/hexo-theme-illya.git
+$ git clone git@github.com:ldsink/hexo-theme-illya.git theme/illya
 ```
 
 #### 配置
 
-修改hexo根目录下的 `_config.yml` ： `theme: yilia`
+修改hexo根目录下的 `_config.yml` ： `theme: illya`
 
 #### 更新
 
