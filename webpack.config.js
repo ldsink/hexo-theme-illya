@@ -49,5 +49,5 @@ module.exports = {
             },
         ]
     },
-    watch: true
+    watch: devMode
 };
