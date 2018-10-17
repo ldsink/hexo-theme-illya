@@ -52,7 +52,8 @@ git pull
 
 ## 四、配置
 
-主题配置文件在主题目录下的 [_config.yml](./_config.yml)，请根据需要配置使用。
+配置文件模板在主题目录下的 [_config_template.yml](./_config_template.yml)。
+重命名为`_config.yml`之后，请根据需要修改配置。
 
 License
 ---
