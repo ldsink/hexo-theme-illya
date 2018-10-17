@@ -50,30 +50,5 @@ module.exports = {
             },
         ]
     },
-    // resolve: {
-    //     alias: {
-    //         'vue$': 'vue/dist/vue.common.js'
-    //     }
-    // },
-    // plugins: [
-    //     new ExtractTextPlugin('[name].[chunkhash:6].css'),
-    //     new webpack.DefinePlugin({
-    //         'process.env.NODE_ENV': '"production"'
-    //     }),
-    //     new HtmlWebpackPlugin({
-    //         inject: false,
-    //         cache: false,
-    //         minify: minifyHTML,
-    //         template: './source-src/script.ejs',
-    //         filename: '../layout/_partial/script.ejs'
-    //     }),
-    //     new HtmlWebpackPlugin({
-    //         inject: false,
-    //         cache: false,
-    //         minify: minifyHTML,
-    //         template: './source-src/css.ejs',
-    //         filename: '../layout/_partial/css.ejs'
-    //     })
-    // ],
-    // watch: true
+    watch: true
 };
