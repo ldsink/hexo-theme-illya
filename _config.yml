@@ -8,8 +8,9 @@ menu:
 subnav:
   github: "#"
   weibo: "#"
-  rss: "#"
   zhihu: "#"
+  mail: "mailto:c.zhou@live.com"
+  #rss: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
@@ -17,7 +18,6 @@ subnav:
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
