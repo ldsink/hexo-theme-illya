@@ -1,4 +1,5 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
@@ -11,14 +12,6 @@ module.exports = {
         path: __dirname + "/source",
         filename: "[name].[chunkhash:6].js"
     },
-    plugins: [
-        new MiniCssExtractPlugin({
-            // Options similar to the same options in webpackOptions.output
-            // both options are optional
-            filename: devMode ? '[name].css' : '[name].[hash:6].css',
-            chunkFilename: devMode ? '[id].css' : '[id].[hash:6].css',
-        }),
-    ],
     module: {
         rules: [
             {
@@ -49,5 +42,25 @@ module.exports = {
             },
         ]
     },
+    plugins: [
+        new MiniCssExtractPlugin({
+            // Options similar to the same options in webpackOptions.output
+            // both options are optional
+            filename: devMode ? '[name].css' : '[name].[hash:6].css',
+            chunkFilename: devMode ? '[id].css' : '[id].[hash:6].css',
+        }),
+        new HtmlWebpackPlugin({
+            inject: false,
+            cache: false,
+            template: 'source-src/css.ejs',
+            filename: '../layout/_partial/css.ejs'
+        }),
+        new HtmlWebpackPlugin({
+            inject: false,
+            cache: false,
+            template: 'source-src/script.ejs',
+            filename: '../layout/_partial/script.ejs'
+        }),
+    ],
     watch: devMode
 };

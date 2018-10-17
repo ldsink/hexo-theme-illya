@@ -2,7 +2,6 @@
     <% const left = '<%= ' %>
     <% const right = '%' %>
     <% const right2 = '>' %>
-
     <% for (var asset in compilation.assets) { %>
         <% if (asset.indexOf('mobile') >= 0) { %>
             <%= compilation.assets[asset].source() %>
