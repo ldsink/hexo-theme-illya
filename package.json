@@ -1,7 +1,7 @@
 {
-  "name": "yilia",
-  "version": "4.0.0",
-  "description": "a theme for hexo",
+  "name": "hexo-theme-illya",
+  "version": "0.0.1",
+  "description": "A simple and elegant theme for Hexo.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack",
@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/litten/hexo-theme-yilia.git"
+    "url": "git+https://github.com/ldsink/hexo-theme-illya.git"
   },
   "keywords": [
     "hexo",
     "theme",
     "blog"
   ],
-  "author": "litten",
-  "license": "ISC",
+  "author": "ldsink(ZHOU Cheng)",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/litten/hexo-theme-yilia/issues"
+    "url": "https://github.com/ldsink/hexo-theme-illya/issues"
   },
-  "homepage": "https://github.com/litten/hexo-theme-yilia#readme",
+  "homepage": "https://github.com/ldsink/hexo-theme-illya#readme",
   "devDependencies": {
     "autoprefixer": "^6.5.1",
     "clean-webpack-plugin": "^0.1.15",
