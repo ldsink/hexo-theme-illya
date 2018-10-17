@@ -1,14 +1,5 @@
-const webpack = require("webpack");
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const devMode = process.env.NODE_ENV !== 'production'
-
-const minifyHTML = {
-    collapseInlineTagWhitespace: true,
-    collapseWhitespace: true,
-    minifyJS: true
-};
+const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
     entry: {
@@ -18,7 +9,6 @@ module.exports = {
     },
     output: {
         path: __dirname + "/source",
-        // publicPath: "./",
         filename: "[name].[chunkhash:6].js"
     },
     plugins: [

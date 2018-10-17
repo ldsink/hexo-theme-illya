@@ -7,7 +7,6 @@
 // version: 1.6.1
 //-----------------------------------------------------
 
-
 // generator
 // ----------------------------------------------------
 
@@ -32,7 +31,6 @@
     @content;
   }
 }
-
 
 // screen
 // ----------------------------------------------------
@@ -73,7 +71,6 @@
   }
 }
 
-
 // hdpi
 // ----------------------------------------------------
 
@@ -84,7 +81,6 @@
   }
 }
 
-
 // hdtv
 // ----------------------------------------------------
 
@@ -92,10 +88,7 @@
   $min-width: false;
   $min-height: false;
 
-  $standards: ('720p', 1280px, 720px)
-              ('1080', 1920px, 1080px)
-              ('2K', 2048px, 1080px)
-              ('4K', 4096px, 2160px);
+  $standards: ('720p', 1280px, 720px) ('1080', 1920px, 1080px) ('2K', 2048px, 1080px) ('4K', 4096px, 2160px);
 
   @each $s in $standards {
     @if $standard == nth($s, 1) {
@@ -105,15 +98,14 @@
   }
 
   @include mq(
-    $min-device-width: $min-width,
-    $min-device-height: $min-height,
-    $min-width: $min-width,
-    $min-height: $min-height
+          $min-device-width: $min-width,
+          $min-device-height: $min-height,
+          $min-width: $min-width,
+          $min-height: $min-height
   ) {
     @content;
   }
 }
-
 
 // iphone 4
 // ----------------------------------------------------
@@ -125,16 +117,15 @@
   $aspect-ratio: '2/3';
 
   @include mq(
-    $min-device-width: $min,
-    $max-device-width: $max,
-    $orientation: $orientation,
-    $device-aspect-ratio: $aspect-ratio,
-    $-webkit-device-pixel-ratio: $pixel-ratio
+          $min-device-width: $min,
+          $max-device-width: $max,
+          $orientation: $orientation,
+          $device-aspect-ratio: $aspect-ratio,
+          $-webkit-device-pixel-ratio: $pixel-ratio
   ) {
     @content;
   }
 }
-
 
 // iphone 5
 // ----------------------------------------------------
@@ -146,16 +137,15 @@
   $aspect-ratio: '40/71';
 
   @include mq(
-    $min-device-width: $min,
-    $max-device-width: $max,
-    $orientation: $orientation,
-    $device-aspect-ratio: $aspect-ratio,
-    $-webkit-device-pixel-ratio: $pixel-ratio
+          $min-device-width: $min,
+          $max-device-width: $max,
+          $orientation: $orientation,
+          $device-aspect-ratio: $aspect-ratio,
+          $-webkit-device-pixel-ratio: $pixel-ratio
   ) {
     @content;
   }
 }
-
 
 // iphone 6
 // ----------------------------------------------------
@@ -166,15 +156,14 @@
   $pixel-ratio: 2;
 
   @include mq(
-    $min-device-width: $min,
-    $max-device-width: $max,
-    $orientation: $orientation,
-    $-webkit-device-pixel-ratio: $pixel-ratio
+          $min-device-width: $min,
+          $max-device-width: $max,
+          $orientation: $orientation,
+          $-webkit-device-pixel-ratio: $pixel-ratio
   ) {
     @content;
   }
 }
-
 
 // iphone 6 plus
 // ----------------------------------------------------
@@ -185,15 +174,14 @@
   $pixel-ratio: 3;
 
   @include mq(
-    $min-device-width: $min,
-    $max-device-width: $max,
-    $orientation: $orientation,
-    $-webkit-device-pixel-ratio: $pixel-ratio
+          $min-device-width: $min,
+          $max-device-width: $max,
+          $orientation: $orientation,
+          $-webkit-device-pixel-ratio: $pixel-ratio
   ) {
     @content;
   }
 }
-
 
 // ipad (all)
 // ----------------------------------------------------
@@ -203,14 +191,13 @@
   $max: 1024px;
 
   @include mq(
-    $min-device-width: $min,
-    $max-device-width: $max,
-    $orientation: $orientation
+          $min-device-width: $min,
+          $max-device-width: $max,
+          $orientation: $orientation
   ) {
     @content;
   }
 }
-
 
 // ipad-retina
 // ----------------------------------------------------
@@ -221,15 +208,14 @@
   $pixel-ratio: 2;
 
   @include mq(
-    $min-device-width: $min,
-    $max-device-width: $max,
-    $orientation: $orientation,
-    $-webkit-device-pixel-ratio: $pixel-ratio
+          $min-device-width: $min,
+          $max-device-width: $max,
+          $orientation: $orientation,
+          $-webkit-device-pixel-ratio: $pixel-ratio
   ) {
     @content;
   }
 }
-
 
 // orientation
 // ----------------------------------------------------
