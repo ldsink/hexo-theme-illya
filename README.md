@@ -51,6 +51,10 @@ cd themes/illya
 git pull origin master
 ```
 
+更新日志
+---
+详见[Changelog](./CHANGELOG.md)。
+
 参与开发
 ---
 
