@@ -1,4 +1,4 @@
-var e = function () {
+const e = function () {
   function r(e, r, n) {
     return r || n ? String.fromCharCode(r || n) : u[e] || e;
   }

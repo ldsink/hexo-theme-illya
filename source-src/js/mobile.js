@@ -1,5 +1,4 @@
 import addClass from 'dom101/add-class';
-import removeClass from 'dom101/remove-class';
 import after from 'dom101/after';
 // 浏览器判断
 import Browser from './browser';
@@ -100,7 +99,7 @@ function init() {
 
 init();
 
-addLoadEvent(function () {
+addLoadEvent(() => {
   Fix.init();
 });
 
