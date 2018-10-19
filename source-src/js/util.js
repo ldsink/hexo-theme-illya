@@ -7,22 +7,23 @@ const e = function () {
     return p[e];
   }
 
-  var t = /&quot;|&lt;|&gt;|&amp;|&nbsp;|&apos;|&#(\d+);|&#(\d+)/g
-    , o = /['<> "&]/g
-    , u = {
-    "&quot;": '"',
-    "&lt;": "<",
-    "&gt;": ">",
-    "&amp;": "&",
-    "&nbsp;": " "
-  }
-    , c = /\u00a0/g
-    , a = /<br\s*\/?>/gi
-    , i = /\r?\n/g
-    , f = /\s/g
-    , p = {};
-  for (var s in u)
+  var t = /&quot;|&lt;|&gt;|&amp;|&nbsp;|&apos;|&#(\d+);|&#(\d+)/g,
+    o = /['<> "&]/g,
+    u = {
+      "&quot;": '"',
+      "&lt;": "<",
+      "&gt;": ">",
+      "&amp;": "&",
+      "&nbsp;": " "
+    },
+    c = /\u00a0/g,
+    a = /<br\s*\/?>/gi,
+    i = /\r?\n/g,
+    f = /\s/g,
+    p = {};
+  for (const s in u) {
     p[u[s]] = s;
+  }
   return u["&apos;"] = "'",
     p["'"] = "&#39;",
     {
