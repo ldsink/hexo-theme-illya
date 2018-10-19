@@ -86,7 +86,7 @@ wangyiyun: false
 changyan_appid: false
 changyan_conf: false
 
-#4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
+#4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用主题的配置
 disqus: false
 
 #5、Gitment
@@ -96,12 +96,12 @@ gitment_oauth:
   client_id: ''           #client ID
   client_secret: ''       #client secret
 
-# 样式定制 - 一般不需要修改，除非有很强的定制欲望…
+# 样式定制
 style:
   # 头像上面的背景颜色
-  header: '#4d4d4d'
-  # 右滑板块背景
-  slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+  header: '#323841'
+  # 右滑板块背景，可以参考 https://uigradients.com/
+  slider: 'linear-gradient(200deg,#000046,#1CB5E0)'
 
 # slider的设置
 slider:
@@ -119,11 +119,10 @@ smart_menu:
   aboutme: '关于我'
 
 friends:
+  ldsink: https://ldsink.com/
+  Github: https://github.com/
   友情链接1: http://localhost:4000/
   友情链接2: http://localhost:4000/
   友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
 
 aboutme: '很惭愧，做了一些微小的工作'
