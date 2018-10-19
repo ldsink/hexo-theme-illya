@@ -8,7 +8,7 @@ All notable changes to this project will be documented in this file.
 #### Feature
 
 #### Fix
-- remove slash in category url
+- remove duplicate slash in category url
 
 #### Other
 - remove report.js
