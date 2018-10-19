@@ -11,6 +11,7 @@
   background: #88acdb;
   -webkit-transition: all 0.2s ease-in;
   display: -webkit-box;
+  /* autoprefixer: ignore next */
   -webkit-box-orient: horizontal;
   -webkit-box-pack: center;
   -webkit-box-align: center;
@@ -35,8 +36,9 @@
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  /* autoprefixer: ignore next */
   -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .header-subtitle {
