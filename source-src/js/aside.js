@@ -28,6 +28,7 @@ var backTop = function (domE, ctn, distance) {
     function toggleDomE() {
         domE.style.display = (ctn.scrollTop || document.documentElement.scrollTop || document.body.scrollTop) > (distance || 500) ? 'block' : 'none';
     }
+
     function throttle(func, wait) {
         var timer = null;
         return function () {
