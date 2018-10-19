@@ -1,6 +1,6 @@
-var browser = {
+const browser = {
   versions: function () {
-    var u = window.navigator.userAgent;
+    const u = window.navigator.userAgent;
     return {
       trident: u.indexOf('Trident') > -1, //IE内核
       presto: u.indexOf('Presto') > -1, //opera内核
