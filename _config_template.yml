@@ -86,7 +86,9 @@ wangyiyun: false
 changyan_appid: false
 changyan_conf: false
 
-#4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用主题的配置
+#4、Disqus 在hexo根目录的 config 里也有disqus_shortname字段，优先使用主题的配置。
+# 在主题中的配置如下：
+# disqus: ldsink
 disqus: false
 
 #5、Gitment
