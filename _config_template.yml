@@ -68,7 +68,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar: https://static.ldsink.com/avatar_512.jpg
+avatar: https://cdn.ldsink.com/images/avatar_512.webp
 
 #是否开启分享
 share_jia: true
