@@ -89,4 +89,4 @@ const e = function () {
     };
 }();
 
-export default e;
+module.exports = e;

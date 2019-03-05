@@ -7,7 +7,7 @@ import Share from './share';
 // 边缘
 import Aside from './aside';
 
-import {addLoadEvent} from './util';
+import { addLoadEvent } from './util';
 
 addLoadEvent(function () {
   Share.init();
