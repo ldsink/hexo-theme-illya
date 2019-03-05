@@ -33,7 +33,9 @@ var backTop = function (domE, ctn, distance) {
     var timer = null;
     return function () {
       var self = this, args = arguments;
-      if (timer) clearTimeout(timer);
+      if (timer) {
+        clearTimeout(timer);
+      }
       timer = setTimeout(function () {
         return typeof func === 'function' && func.apply(self, args);
       }, wait);
@@ -45,6 +47,6 @@ function init() {
   backTop(document.getElementById('js-jump-container'), document.getElementById('container'));
 }
 
-module.exports = {
-  init: init
+export default {
+  init: init,
 };

@@ -39,7 +39,7 @@ function init() {
       items: [],
       jsonFail: false,
       showTags: false,
-      search: ''
+      search: '',
     },
     methods: {
       stop: (e) => {
@@ -70,7 +70,7 @@ function init() {
         app.$set('isShow', true);
         app.$set('isCtnShow', true);
         setScrollZero();
-      }
+      },
     },
     filters: {
       isFalse: (val) => {
@@ -94,10 +94,10 @@ function init() {
       dateformat: (str) => {
         let d = new Date(str);
         return d.getFullYear() + '-' + fixzero((d.getMonth() + 1)) + '-' + fixzero(d.getDate());
-      }
+      },
     },
     ready: () => {
-    }
+    },
   });
 
   function handleSearch(val) {
@@ -200,4 +200,4 @@ if (!isMobile) {
   Anm.init();
 }
 
-module.exports = {};
+export default {};

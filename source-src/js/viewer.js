@@ -27,17 +27,17 @@ function init() {
           src: src,
           w: image.width || $em2.width,
           h: image.height || $em2.height,
-          title: title
+          title: title,
         });
       });
       var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
-        index: parseInt(i)
+        index: parseInt(i),
       });
       gallery.init();
     };
   });
 }
 
-module.exports = {
-  init: init
+export default {
+  init: init,
 };

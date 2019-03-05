@@ -5,7 +5,7 @@ import Browser from './browser';
 // fix hexo 不支持的配置
 import Fix from './fix';
 
-import {addLoadEvent} from './util';
+import { addLoadEvent } from './util';
 
 function isPathMatch(path, href) {
   let reg = /\/|index.html/g;
@@ -103,4 +103,4 @@ addLoadEvent(() => {
   Fix.init();
 });
 
-module.exports = {};
+export default {};

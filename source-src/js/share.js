@@ -65,7 +65,7 @@ let init = function () {
         sUrl: sUrl,
         sPic: sPic,
         sTitle: sTitle,
-        sDesc: sTitle
+        sDesc: sTitle,
       });
     };
   });
@@ -74,6 +74,6 @@ let init = function () {
   document.querySelector('.js-modal-close').onclick = hideWX;
 };
 
-module.exports = {
-  init: init
+export default {
+  init: init,
 };

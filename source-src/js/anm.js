@@ -8,7 +8,7 @@ function init() {
   function initHeader() {
     width = window.innerWidth;
     height = window.innerHeight;
-    target = {x: 0, y: height};
+    target = { x: 0, y: height };
 
     largeHeader = document.getElementById('container');
     largeHeader.style.height = height + 'px';
@@ -89,7 +89,6 @@ function init() {
   }
 }
 
-
-module.exports = {
-  init: init
+export default {
+  init: init,
 };
