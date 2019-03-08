@@ -29,9 +29,10 @@
 }
 
 .header-subtitle {
+  padding: 0 24px;
   text-align: center;
-  color: #999;
-  font-size: 14px;
+  color: #229CFF;
+  font-size: 16px;
   line-height: 25px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -39,8 +40,4 @@
   /* autoprefixer: ignore next */
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
-}
-
-.header-subtitle {
-  padding: 0 24px;
 }
