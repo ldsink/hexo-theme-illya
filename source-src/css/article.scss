@@ -7,15 +7,18 @@
   position: relative;
   background: #fff;
   -webkit-transition: all 0.2s ease-in;
+
   &.show {
     visibility: visible;
     -webkit-animation: cd-bounce-1 0.6s;
     -moz-animation: cd-bounce-1 0.6s;
     animation: cd-bounce-1 0.6s;
   }
+
   &.hidden {
     visibility: hidden;
   }
+
   img {
     max-width: 100%;
   }
@@ -79,6 +82,7 @@
   margin-left: 200px;
   padding: 15px 0;
   margin-right: 75px;
+
   .brief {
     display: block;
     color: #a8a8a8;
@@ -86,6 +90,7 @@
     line-height: 14px;
     height: 7px;
     padding-left: 2px;
+
     &:before {
       display: inline-block;
       content: "“";
@@ -99,16 +104,17 @@
 }
 
 .article-title {
-  color: #696969;
-  margin-left: 0px;
-  font-weight: 300;
-  line-height: 35px;
+  color: #4a4a4a;
+  margin-left: 0;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 1.45em;
   margin-bottom: 20px;
-  font-size: 26px;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s;
+
   &:hover {
     color: #B0A0AA;
   }
@@ -121,7 +127,7 @@
 
 .article-header {
   border-left: 5px solid #4d4d4d;
-  padding: 15px 0px 15px 25px;
+  padding: 15px 0 15px 25px;
 }
 
 .article-info.info-on-right {
@@ -145,9 +151,11 @@
   line-height: 1.8em;
   padding-right: 30px;
   padding-left: 30px;
+
   p {
     margin-top: 10px;
   }
+
   p code, li code {
     padding: 1px 3px;
     margin: 0 3px;
@@ -157,20 +165,23 @@
     word-wrap: break-word;
     font-size: 14px;
   }
+
   blockquote {
-    background: #ddd;
     border-left: 5px solid #ccc;
     padding: 15px 20px;
     margin-top: 10px;
     border-left: 5px solid #657b83;
     background: #f6f6f6;
+
     p {
       margin-top: 0;
     }
   }
+
   em {
     font-style: italic;
   }
+
   ul {
     li:before {
       content: "";
@@ -185,22 +196,27 @@
       margin-top: 12px;
     }
   }
+
   ul, ol {
     font-size: 14px;
-    margin: 10px 0px;
+    margin: 10px 0;
   }
+
   li {
     ul, ol {
       margin-left: 30px;
+
       li:before {
         content: "";
         background: #dedede;
       }
     }
   }
+
   h1 {
     margin-top: 30px;
   }
+
   h2 {
     margin-top: 20px;
     font-weight: 300;
@@ -208,6 +224,7 @@
     padding-bottom: 5px;
     border-bottom: 1px solid #ddd;
   }
+
   h3, h4, h5, h6 {
     margin-top: 20px;
     font-weight: 300;
@@ -215,17 +232,21 @@
     padding-bottom: 5px;
     border-bottom: 1px solid #ddd;
   }
+
   video {
     max-width: 100%;
   }
+
   strong {
     font-weight: bold;
   }
+
   .caption {
     display: block;
     font-size: 0.8em;
     color: #aaa;
   }
+
   hr {
     height: 0;
     margin-top: 20px;
@@ -235,8 +256,8 @@
     border-top: 1px solid #DDD;
     border-bottom: 1px solid #FFF;
   }
+
   pre {
-    font-size: 1 / 0.9em;
     line-height: 1.5;
     margin-top: 10px;
     padding: 5px 15px;
@@ -246,38 +267,46 @@
     border: 1px solid #ccc;
     text-shadow: 0 1px #444;
     font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+
     code {
       font-size: 14px;
     }
   }
+
   table {
     width: 100%;
     border: 1px solid #dedede;
     margin: 15px 0;
     border-collapse: collapse;
+
     tr, td {
       height: 35px;
     }
+
     thead {
       tr {
         background: #f8f8f8;
       }
     }
+
     tbody {
       tr:hover {
         background: #efefef;
       }
     }
+
     td, th {
       border: 1px solid #dedede;
       padding: 0 10px;
     }
   }
+
   figure {
     table {
       border: none;
       width: auto;
       margin: 0;
+
       tbody {
         tr:hover {
           background: none;
@@ -289,13 +318,13 @@
 
 .article-meta {
   width: 150px;
-  font-size: 14;
-  text-align: right;
+  font-size: 14px;
   position: absolute;
   right: 0;
   top: 23px;
   text-align: center;
   z-index: 1;
+
   time {
     color: #aaa;
   }
@@ -304,16 +333,19 @@
 #article-nav {
   margin: 80px 0 30px 0;
   padding-bottom: 10px;
+
   .article-nav-link-wrap {
-    margin: 0px 30px 0px 30px;
+    margin: 0 30px;
     font-size: 14px;
     color: #333;
+
     .article-nav-title {
       display: inline-block;
       font-size: 12px;
       color: #aaa;
       transition: color 0.3s;
     }
+
     strong {
       background: #ddd;
       color: #fff;
@@ -324,15 +356,18 @@
       text-align: center;
       transition: background 0.3s;
     }
+
     &:hover {
       strong {
         background: #4d4d4d;
       }
+
       .article-nav-title {
         color: #4d4d4d;
       }
     }
   }
+
   #article-nav-older {
     float: right;
   }
