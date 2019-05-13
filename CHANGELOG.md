@@ -1,18 +1,25 @@
-# [hexo-theme-illya](https://github.com/ldsink/hexo-theme-illya) Change Log
+# [hexo-theme-illya](https://github.com/ldsink/hexo-theme-illya) Changelog
 
 All notable changes to this project will be documented in this file.
 
-## current
+## master
+
+## 0.0.2
 
 ### Feature
+- style: change content max-width
+- style: adjust left navigation bar
+- change title and content font size
 
 ### Fix
+- article blockquote use overflow-wrap: break-word;
 - remove duplicate slash in category url
-- share url use https
+- share url use HTTPS
+- update resource CDN
 
 ### Other
 - remove report.js
-
+- update packages
 
 ## 0.0.1
 project forked from [Yilia](https://github.com/litten/hexo-theme-yilia)

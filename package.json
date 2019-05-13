@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-illya",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple and elegant theme for Hexo.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,7 +27,7 @@
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "autoprefixer": "^9.5.1",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^8.0.6",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-polyfill": "^6.23.0",
     "babel-preset-stage-2": "^6.24.1",
