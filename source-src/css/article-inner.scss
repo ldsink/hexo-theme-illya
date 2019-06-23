@@ -76,11 +76,16 @@
 
 .article-entry {
   line-height: 1.8em;
-  padding-left: 7.6923%;
-  max-width: 920px;
+  max-width: 1024px;
+  margin: auto;
+  color: #424242;
 
   p {
-    margin-top: 10px;
+    margin: 25px 0;
+    word-break: break-all;
+    text-indent: 2em;
+    text-align: justify;
+    font-weight: 300;
   }
 
   p code, li code {
@@ -138,6 +143,7 @@
 
   ul, ol {
     font-size: 14px;
+    font-weight: 300;
     margin: 10px 0;
   }
 

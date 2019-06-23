@@ -5,11 +5,14 @@
     <% if (post.link || post.title){ %>
       <header class="article-header">
         <%- partial('post/title', {class_name: 'article-title'}) %>
-        <% if (!post.noDate){ %>
-          <%- partial('post/date', {class_name: 'archive-article-date', date_format: null}) %>
-        <% } %>
       </header>
+      <% if (!post.noDate){ %>
+        <div style="text-align: center">
+          <%- partial('post/created-at', {class_name: 'archive-article-date', date_format: null}) %>
+        </div>
+      <% } %>
     <% } %>
+    <br />
     <div class="article-entry" itemprop="articleBody">
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
