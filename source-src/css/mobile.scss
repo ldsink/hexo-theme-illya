@@ -373,7 +373,7 @@ html, body, #container {
   }
 
   #header {
-    padding: 10px 0 0 0;
+    padding: 20px 0;
 
     .profilepic {
       display: block;
@@ -385,7 +385,7 @@ html, body, #container {
 
 .header-menu {
   height: auto;
-  margin: 10px 0 20px;
+  margin-top: 20px;
 
   &.tools-nav {
     display: none;
@@ -420,8 +420,6 @@ html, body, #container {
     justify-content: space-around;
     position: relative;
     z-index: 1;
-    border: 1px solid #a0a0a0;
-    border-radius: 3px;
   }
 
   li {
