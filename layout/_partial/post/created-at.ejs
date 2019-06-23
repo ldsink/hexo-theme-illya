@@ -1,10 +1,10 @@
 <a href="<%- url_for(post.path) %>" class="<%= class_name %>">
   <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished">
-    Created at <%= date(post.date, date_format) %>
+    Published on <%= date(post.date, date_format) %>
   </time>
   <% if (post.updatedAt){ %>
     <time datetime="<%= date_xml(post.updatedAt) %>" itemprop="dateUpdated">
-      , Updated at <%= date(post.updatedAt, date_format) %>
+      , Updated on <%= date(post.updatedAt, date_format) %>
     </time>
   <% } %>
 </a>
