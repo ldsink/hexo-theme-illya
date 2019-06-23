@@ -78,14 +78,14 @@
   line-height: 1.8em;
   max-width: 1024px;
   margin: auto;
+  color: #424242;
 
   p {
     margin: 25px 0;
     word-break: break-all;
     text-indent: 2em;
     text-align: justify;
-    color: #424242;
-    font-weight: 400;
+    font-weight: 300;
   }
 
   p code, li code {
@@ -143,6 +143,7 @@
 
   ul, ol {
     font-size: 14px;
+    font-weight: 300;
     margin: 10px 0;
   }
 
