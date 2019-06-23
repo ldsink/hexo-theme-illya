@@ -2,9 +2,9 @@
   <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished">
     Created at <%= date(post.date, date_format) %>
   </time>
-  <% if (post.updated){ %>
-    <time datetime="<%= date_xml(post.updated) %>" itemprop="dateUpdated">
-      , Updated at <%= date(post.updated, date_format) %>
+  <% if (post.updatedAt){ %>
+    <time datetime="<%= date_xml(post.updatedAt) %>" itemprop="dateUpdated">
+      , Updated at <%= date(post.updatedAt, date_format) %>
     </time>
   <% } %>
 </a>
