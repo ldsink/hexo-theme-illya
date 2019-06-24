@@ -103,7 +103,7 @@ style:
   # 头像上面的背景颜色
   header: '#323841'
   # 右滑板块背景，可以参考 https://uigradients.com/
-  slider: 'linear-gradient(200deg,#000046,#1CB5E0)'
+  slider: 'linear-gradient(200deg,#74ebd5,#acb6e5)'
 
 # slider的设置
 slider:
