@@ -1,9 +1,16 @@
 hexo-theme-illya
 ================
 
-[Illya](https://github.com/ldsink/hexo-theme-illya) has been forked from [Yilia](https://github.com/litten/hexo-theme-yilia) since 2018.10 and updated a lot.
+<p align="left">
+    <a href="https://www.npmjs.com/package/hexo-theme-illya">
+        <img src="https://img.shields.io/npm/v/hexo-theme-illya?style=flat-square" />
+    </a>
+    <a href="https://github.com/ldsink/hexo-theme-illya/blob/master/LICENSE">
+        <img src="https://img.shields.io/npm/l/hexo-theme-illya?style=flat-square" alt="License" />
+    </a>
+</p>
 
-—————————————————————
+[Illya](https://github.com/ldsink/hexo-theme-illya) has been forked from [Yilia](https://github.com/litten/hexo-theme-yilia) since 2018.10 and updated a lot.
 
 关于主题
 ---
@@ -11,12 +18,6 @@ hexo-theme-illya
 1. 专注内容。
 1. 移动端响应式支持。
 1. 激进兼容，只追求兼容稳定版Chrome。
-
-近期计划
----
-- [x] 修复明显的BUG。
-- [x] 熟悉前端构建工具，先完善构建，测试，CI。
-- [ ] 提升性能 & 参考 Yilia 内有价值的PR，增加功能。
 
 主题使用
 ---
@@ -52,14 +53,11 @@ git pull origin master
 主题外观
 ---
 
-#### 常规
-![常规](https://cloud.githubusercontent.com/assets/2024949/19027861/92879edc-8967-11e6-8e60-7987b6507c8d.gif)
+#### 桌面端
+![常规](https://github.com/ldsink/hexo-theme-illya/raw/master/docs/desktop.png)
 
-#### 手机
-![手机](https://cloud.githubusercontent.com/assets/2024949/19027020/1c5b756a-895f-11e6-99bf-ddff9687aee0.gif)
-
-#### iPad横竖屏切换
-![iPad横竖屏切换](https://cloud.githubusercontent.com/assets/2024949/19026392/e74e1816-8957-11e6-8f08-eac9b3c8c036.gif)
+#### 移动端
+![手机](https://github.com/ldsink/hexo-theme-illya/raw/master/docs/mobile.png)
 
 License
 ---
