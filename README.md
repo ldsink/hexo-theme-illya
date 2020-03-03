@@ -8,16 +8,19 @@ hexo-theme-illya
     <a href="https://github.com/ldsink/hexo-theme-illya/blob/master/LICENSE">
         <img src="https://img.shields.io/npm/l/hexo-theme-illya?style=flat-square" alt="License" />
     </a>
+    <a href="https://travis-ci.com/ldsink/hexo-theme-illya">
+        <img src="https://img.shields.io/travis/com/ldsink/hexo-theme-illya?style=flat-square" alt="Travis" />
+    </a>
 </p>
 
 [Illya](https://github.com/ldsink/hexo-theme-illya) has been forked from [Yilia](https://github.com/litten/hexo-theme-yilia) since 2018.10 and updated a lot.
 
 关于主题
 ---
-1. 崇尚简约。
-1. 专注内容。
-1. 移动端响应式支持。
-1. 激进兼容，只追求兼容稳定版Chrome。
+1. 崇尚简约
+1. 专注内容
+1. 移动端响应式支持
+1. 激进兼容，只追求兼容稳定版 Firefox
 
 主题使用
 ---
