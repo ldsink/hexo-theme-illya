@@ -63,6 +63,9 @@
       "path": "cz-simple-log"
     }
   },
+  "publishconfig": {
+    "registry": "https://registry.npmjs.com"
+  },
   "browserslist": [
     "defaults"
   ]
