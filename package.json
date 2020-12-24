@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-illya",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "A simple and elegant theme for Hexo.",
   "scripts": {
     "test": "exit 0",
