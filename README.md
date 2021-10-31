@@ -8,7 +8,7 @@ hexo-theme-illya
     <a href="https://github.com/ldsink/hexo-theme-illya/blob/master/LICENSE">
         <img src="https://img.shields.io/npm/l/hexo-theme-illya?style=flat-square" alt="License" />
     </a>
-    <a href="https://travis-ci.com/ldsink/hexo-theme-illya">
+    <a href="https://app.travis-ci.com/github/ldsink/hexo-theme-illya">
         <img src="https://img.shields.io/travis/com/ldsink/hexo-theme-illya?style=flat-square" alt="Travis" />
     </a>
 </p>
@@ -17,6 +17,7 @@ hexo-theme-illya
 
 关于主题
 ---
+
 1. 崇尚简约
 1. 专注内容
 1. 移动端响应式支持
@@ -26,18 +27,22 @@ hexo-theme-illya
 ---
 
 #### 安装
+
 在 Hexo 站点根目录，执行：
+
 ```bash
 $ git clone git@github.com:ldsink/hexo-theme-illya.git themes/illya
 ```
 
 #### 配置
+
 配置文件模板在主题目录下的 [_config_template.yml](./_config_template.yml)。
 
 1. `_config_template.yml`命名为`_config.yml`之后，请根据需要修改配置。
 1. 修改hexo根目录下的 `_config.yml` ： `theme: illya`
 
 #### 更新
+
 ```bash
 cd themes/illya
 git pull origin master
@@ -57,9 +62,11 @@ git pull origin master
 ---
 
 #### 桌面端
+
 ![常规](https://github.com/ldsink/hexo-theme-illya/raw/master/docs/desktop.png)
 
 #### 移动端
+
 ![手机](https://github.com/ldsink/hexo-theme-illya/raw/master/docs/mobile.png)
 
 License
