@@ -44,7 +44,7 @@
 
 3. **开发**
 执行`npm run dev`
-此时会用webpack打包，把文件编译到source文件里，但文件不会经过压缩
+此时会用 webpack 打包，把文件编译到 source 文件里，但文件不会经过压缩
 
 4. **发布**
 执行`npm run build`
