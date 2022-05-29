@@ -181,7 +181,7 @@
         white-space: nowrap;
         text-overflow: ellipsis;
         display: block;
-        color: #323841;
+        color: white;
         text-shadow: 1px 1px rgba(77, 77, 77, 0.25);
 
         .icon {
@@ -190,8 +190,10 @@
         }
 
         &:hover {
-          color: #fff;
           @extend %trans;
+
+          font-weight: 600;
+          color: #F8D800;
         }
       }
 
