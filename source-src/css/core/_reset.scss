@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-//-----------------------------------------------------  
+//-----------------------------------------------------
 // reset scss
 // 包括normalize，清零重置
 //-----------------------------------------------------
@@ -105,7 +105,7 @@ abbr[title] {
 // Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
 b,
 strong {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 // Address styling not present in Safari and Chrome.
@@ -306,7 +306,7 @@ textarea {
 // Don't inherit the `font-weight` (applied by a rule above).
 // NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
 optgroup {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 // webkit focus outline
