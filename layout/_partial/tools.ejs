@@ -73,8 +73,7 @@ var hasAboutMe = theme.smart_menu.aboutme
 </pre>
           </p>
           <li class="search-li" q-repeat="items" q-show="isShow">
-            <a q-attr="href:path|urlformat" class="search-title"><i class="icon-quo-left icon"></i><span
-                q-text="title"></span></a>
+            <a q-attr="href:path|urlformat" class="search-title"><span q-text="title"></span></a>
             <p class="search-time">
               <i class="icon-calendar icon"></i>
               <span q-text="date|dateformat"></span>
@@ -94,8 +93,7 @@ var hasAboutMe = theme.smart_menu.aboutme
           <ul class="search-ul">
             <% for (var i in theme.friends){ %>
               <li class="search-li">
-                <a href="<%- url_for(theme.friends[i]) %>" target="_blank" class="search-title"><i
-                    class="icon-quo-left icon"></i><%= i %></a>
+                <a href="<%- url_for(theme.friends[i]) %>" target="_blank" class="search-title"><%= i %></a>
               </li>
             <% } %>
           </ul>
