@@ -15,7 +15,7 @@ let localTagKey = 'yilia-tag';
 let localSearchKey = 'yilia-search';
 const isMobile = (Browser.versions.mobile && window.screen.width < 800);
 
-function fixzero(str) {
+function fixZero(str) {
   str = str + '';
   return str.length === 1 ? '0' + str : str;
 }
@@ -36,6 +36,7 @@ function init() {
       innerArchive: false,
       friends: false,
       aboutme: false,
+      plusOne: false,
       items: [],
       jsonFail: false,
       showTags: false,
@@ -63,9 +64,11 @@ function init() {
         // innerArchive: '所有文章'
         // friends: '友情链接'
         // aboutme: '关于我'
+        // plusOne: '+1s'
         app.$set('innerArchive', false);
         app.$set('friends', false);
         app.$set('aboutme', false);
+        app.$set('plusOne', false);
         app.$set(type, true);
         app.$set('isShow', true);
         app.$set('isCtnShow', true);
@@ -93,7 +96,7 @@ function init() {
       },
       dateformat: (str) => {
         let d = new Date(str);
-        return d.getFullYear() + '-' + fixzero((d.getMonth() + 1)) + '-' + fixzero(d.getDate());
+        return d.getFullYear() + '-' + fixZero((d.getMonth() + 1)) + '-' + fixZero(d.getDate());
       },
     },
     ready: () => {
@@ -186,6 +189,7 @@ function init() {
       app.$set('innerArchive', true);
       app.$set('friends', false);
       app.$set('aboutme', false);
+      app.$set('plusOne', false);
       app.$set('isShow', true);
       app.$set('isCtnShow', true);
       app.$set('search', '#' + $em.innerHTML);

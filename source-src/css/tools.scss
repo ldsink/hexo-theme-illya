@@ -241,4 +241,14 @@
     color: #fffdd8;
     text-shadow: 1px 1px rgba(77, 77, 77, 0.45);
   }
+
+  .plus-one {
+    @extend .aboutme-wrap;
+    display: flow-root;
+
+    p {
+      padding: 32px;
+      font-weight: 500;
+    }
+  }
 }
