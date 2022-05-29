@@ -86,11 +86,11 @@
       }
 
       .search-switch input {
-        width: 40px;
+        width: 30px;
         height: 14px;
         position: absolute;
         top: 0;
-        right: 30px;
+        right: 35px;
         z-index: 2;
         border: 0;
         background: 0 0;
@@ -100,7 +100,7 @@
 
       .search-switch input:before {
         content: '';
-        width: 40px;
+        width: 30px;
         height: 14px;
         border: 1px solid #bdcabc;
         background-color: #fdfdfd;
@@ -123,7 +123,7 @@
       }
 
       .search-switch input:checked:after {
-        left: 27px;
+        left: 17px;
         background: #fff;
       }
 

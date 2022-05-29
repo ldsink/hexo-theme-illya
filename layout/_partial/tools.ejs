@@ -1,7 +1,7 @@
 <%
 var hasInnerArchive = theme.smart_menu.innerArchive
 var hasFriends = theme.smart_menu.friends
-var hasAboutme = theme.smart_menu.aboutme
+var hasAboutMe = theme.smart_menu.aboutme
 %>
 <div class="tools-col" q-class="show:isShow,hide:isShow|isFalse" q-on="click:stop(e)">
   <div class="tools-nav header-menu">
@@ -103,7 +103,7 @@ var hasAboutme = theme.smart_menu.aboutme
       </section>
     <% } %>
 
-    <% if(hasAboutme){ %>
+    <% if(hasAboutMe){ %>
       <section class="tools-section tools-section-me" q-show="aboutme">
         <% if(theme.aboutme){ %>
           <div class="aboutme-wrap" id="js-aboutme"><%= theme.aboutme %></div>
