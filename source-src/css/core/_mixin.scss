@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-//-----------------------------------------------------  
+//-----------------------------------------------------
 // mixin scss
 // 包括常用的mixin, %, @function 及辅助的btn和背景图片icon
 // mixin，通过@include调用，样式通过拷贝的方式使用，尤其适用于传递参数
-// %，通过@extend调用，样式通过组合申明的方式使用，适用于不传参数的代码片段  
+// %，通过@extend调用，样式通过组合申明的方式使用，适用于不传参数的代码片段
 // @function，返回一个值，用于调用
 //-----------------------------------------------------
 
@@ -157,7 +157,7 @@
   @include fixed(bottom);
 }
 
-// justify 
+// justify
 // 左右对齐
 @mixin justify($extend: true) {
   @if $extend {
@@ -683,5 +683,5 @@
 }
 
 %paper-bg {
-  background: url('./img/checkered-pattern.png') repeat #5d5d5d;
+  background: url('../images/checkered-pattern.png') repeat #5d5d5d;
 }
