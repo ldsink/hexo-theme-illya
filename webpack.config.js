@@ -14,7 +14,7 @@ module.exports = (env, argv) => {
     },
     output: {
       path: __dirname + "/source",
-      publicPath: "./",
+      publicPath: "",
       filename: "[name].[chunkhash:7].js",
     },
     module: {
