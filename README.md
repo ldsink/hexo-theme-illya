@@ -8,9 +8,6 @@ hexo-theme-illya
     <a href="https://github.com/ldsink/hexo-theme-illya/blob/master/LICENSE">
         <img src="https://img.shields.io/npm/l/hexo-theme-illya?style=flat-square" alt="License" />
     </a>
-    <a href="https://app.travis-ci.com/github/ldsink/hexo-theme-illya">
-        <img src="https://img.shields.io/travis/com/ldsink/hexo-theme-illya?style=flat-square" alt="Travis" />
-    </a>
 </p>
 
 [Illya](https://github.com/ldsink/hexo-theme-illya) has been forked from [Yilia](https://github.com/litten/hexo-theme-yilia) since 2018.10 and updated a lot.
