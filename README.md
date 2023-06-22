@@ -1,9 +1,9 @@
 hexo-theme-illya
 ================
 
-<p align="left">
+<p>
     <a href="https://www.npmjs.com/package/hexo-theme-illya">
-        <img src="https://img.shields.io/npm/v/hexo-theme-illya?style=flat-square" />
+        <img src="https://img.shields.io/npm/v/hexo-theme-illya?style=flat-square" alt="npm" />
     </a>
     <a href="https://github.com/ldsink/hexo-theme-illya/blob/master/LICENSE">
         <img src="https://img.shields.io/npm/l/hexo-theme-illya?style=flat-square" alt="License" />
@@ -19,9 +19,9 @@ hexo-theme-illya
 ---
 
 1. 崇尚简约
-1. 专注内容
-1. 移动端响应式支持
-1. 激进兼容，只追求兼容稳定版 Firefox
+2. 专注内容
+3. 移动端响应式支持
+4. 激进兼容，只追求兼容稳定版 Firefox
 
 主题使用
 ---
