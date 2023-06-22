@@ -20,8 +20,6 @@ jobs:
           node-version: '18.x'
           registry-url: 'https://registry.npmjs.com'
 
-      - run: npm ci
-
       # Setup .npmrc file to publish to npm
       - run: npm publish
         env:
